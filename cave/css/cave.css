@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  
+html {
+  background-image:url("https://i.ibb.co/5rj5BBQ/fonpage.png");
+  position: absolute;
+  width: 1440px;
+  height: 895px;
+  overflow: hidden;
+}
+
+    body {
+    font-family: 'Press Start 2P', cursive;
+    user-select: none;
+  }
+
+  
+  .cap-game {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Press Start 2P', cursive;
+    width: 431px;
+    background: url("https://i.ibb.co/09p0shv/1618607029-4-funart-pro-p-oboi-fon-pikselnoe-nebo-4.jpg") 0% 340px;
+    color: #f84020; 
+    
+  }
+  .score-container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+    padding: auto;
+    background: #ffe031; 
+    width: 431px; 
+    /* #ffd931 */
+  }
+  
+  canvas {
+      margin: 0 auto;
+      width: 431px;
+      display: flex;
+      justify-content: center;
+  }
+
+  h6 {
+      margin: 5px;
+      display: flex;
+      justify-content: center;
+  }
+
+  button {
+    position: absolute;
+    left: 63px;
+    top: 13px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: auto;
+    /* top: 100px; */
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+
+  }
+  button:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  header {
+    width: 1440px;
+    height: 20px;
+  }
+
+
+
+
+ 
+  
+
+  
